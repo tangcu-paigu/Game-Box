@@ -177,7 +177,7 @@
   		ball.spdY = ball.spdY * (-1);
   	}
 
-  	else if(ball.y - ball.radius == 265 &&  ball.x + ball.radius >= bae.x && ball.x - ball.radius <= (base.x + 75) ){
+  	else if(ball.y - ball.radius == 265 &&  ball.x + ball.radius >= base.x && ball.x - ball.radius <= (base.x + 75) ){
          ball. spdY = ball.spdY * (-1);
   	}
      
